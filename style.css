@@ -1,0 +1,86 @@
+html {
+  background: white;
+}
+
+*{
+	font-family: "Helvetica Neue";
+}
+
+h1 {
+	font-weight: lighter;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+	color: #9fd2ff;
+}
+
+.container {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 490px;
+    width: 330px;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 2px 2px 6px grey;
+    border-bottom: 5px solid rgb(66, 66, 66);
+    border-right: 5px solid rgb(66, 66, 66);
+    border-radius: 30px;
+}
+
+.outputDisplay {
+	font-weight: lighter;
+	border-radius: 10px;
+	background-color: black;
+	margin: auto;
+	font-size: 2rem;
+	height: 56px;
+	letter-spacing: 2px;
+	padding-top: 20px;
+	padding-right: 10px;
+	text-align: right;
+	width: 260px;
+	color: white;
+}
+
+.buttons {
+    margin: 2%;
+    text-align: center;
+	display: inline-block;
+    /*height: auto;*/
+    /*display: flex;*/
+    /*margin-top: 7px;*/
+}
+
+#allClear, #sign, #percent{
+	background-color: lightgrey;
+	color: black;
+}
+
+#divSign, #times, #minus, #plus, #equals{
+	color: black;
+}
+
+.numbers{
+    background-color: rgb(71, 67, 67);
+}
+
+button {
+	background: #9fd2ff;
+	border-radius: 50px;
+	border-color: black;
+	color: #fff;
+	font-size: 1.1rem;
+	height: 55px;
+	margin: 5px 5px;
+	width: 55px;
+	outline: none;
+}
+
+button:hover {
+	background: #a65eff;
+    transition-duration: 0.5s;
+    filter: brightness(130%);
+    cursor: pointer;
+}
